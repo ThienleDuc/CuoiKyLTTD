@@ -13,6 +13,10 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.ktck124.lop124LTDD04.nhom17.PhanCongQuoc.BussinessLogic.BL_ChiTietHuy;
+import com.ktck124.lop124LTDD04.nhom17.PhanCongQuoc.adapter.ChiTietHuyAdapter;
+import com.ktck124.lop124LTDD04.nhom17.R;
+
 import java.util.ArrayList;
 
 public class chiTietHuy extends AppCompatActivity {

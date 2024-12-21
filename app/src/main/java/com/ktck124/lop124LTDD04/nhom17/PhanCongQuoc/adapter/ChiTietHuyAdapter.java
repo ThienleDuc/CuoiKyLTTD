@@ -12,7 +12,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-
+import com.ktck124.lop124LTDD04.nhom17.PhanCongQuoc.entity.ChiTietHuyEntity;
+import com.ktck124.lop124LTDD04.nhom17.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

@@ -9,6 +9,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.ktck124.lop124LTDD04.nhom17.PhanCongQuoc.BussinessLogic.BL_XuatVe;
+import com.ktck124.lop124LTDD04.nhom17.PhanCongQuoc.adapter.XuatVeAdapter;
+import com.ktck124.lop124LTDD04.nhom17.R;
+
 import java.util.ArrayList;
 
 public class xuat_ve extends AppCompatActivity {

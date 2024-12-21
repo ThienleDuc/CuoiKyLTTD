@@ -11,8 +11,12 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.RecyclerView;
+import
 
 
+import com.ktck124.lop124LTDD04.nhom17.PhanCongQuoc.BussinessLogic.BL_HoanTien;
+import com.ktck124.lop124LTDD04.nhom17.PhanCongQuoc.adapter.YeuCauHoanTienAdapter;
+import com.ktck124.lop124LTDD04.nhom17.R;
 
 import java.util.ArrayList;
 
@@ -28,7 +32,7 @@ public class yeu_cau_hoan_tien extends AppCompatActivity {
         setContentView(R.layout.activity_yeu_cau_hoan_tien);
         ImageView back = findViewById(R.id.itemback);
 
-        back.setOnClickListener(v -> onBackPressed());
+        back.setOnClickListener(v -> finish()));
         ImageView lydohuy = findViewById(R.id.doimatkhau);
 
         HoanTien();

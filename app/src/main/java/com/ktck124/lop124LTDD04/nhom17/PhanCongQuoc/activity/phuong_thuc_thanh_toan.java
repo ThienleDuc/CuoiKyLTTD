@@ -8,6 +8,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.ktck124.lop124LTDD04.nhom17.R;
 
 public class phuong_thuc_thanh_toan extends AppCompatActivity {
 

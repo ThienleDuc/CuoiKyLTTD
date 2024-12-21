@@ -12,6 +12,9 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.ktck124.lop124LTDD04.nhom17.PhanCongQuoc.BussinessLogic.BL_XemThongTin;
+import com.ktck124.lop124LTDD04.nhom17.PhanCongQuoc.adapter.XemThongTinAdapter;
+import com.ktck124.lop124LTDD04.nhom17.R;
 
 import java.util.ArrayList;
 

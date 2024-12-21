@@ -9,6 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 
+import com.ktck124.lop124LTDD04.nhom17.R;
+
 public class StartActivity extends AppCompatActivity {
 
     @Override
