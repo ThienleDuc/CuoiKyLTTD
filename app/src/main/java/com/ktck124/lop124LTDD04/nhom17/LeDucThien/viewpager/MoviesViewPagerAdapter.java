@@ -7,6 +7,12 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 
 
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.fragment.dang_chieu;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.fragment.kham_pha;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.fragment.lich_chieu;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.fragment.rap_chieu;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.fragment.sap_chieu;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.fragment.xep_hang;
 
 import java.util.ArrayList;
 import java.util.List;

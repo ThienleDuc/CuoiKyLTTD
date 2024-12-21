@@ -6,6 +6,15 @@ import android.util.Log;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.adapter.CaroselDangChieuAdapter;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.adapter.DangChieuAdapter;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.adapter.DanhGiaPhimAdapter;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.entity.ent_DanhGiaPhim;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.entity.ent_PhimDangChieu;
+import com.ktck124.lop124LTDD04.nhom17.R;
+import com.ktck124.lop124LTDD04.nhom17.generalMethod.ConnectionDatabase;
+import com.ktck124.lop124LTDD04.nhom17.generalMethod.HorizontalSpaceItemDecoration;
+import com.ktck124.lop124LTDD04.nhom17.generalMethod.SpaceItemDecoration;
 
 
 import java.sql.*;

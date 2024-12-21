@@ -6,7 +6,11 @@ import android.util.Log;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.adapter.LichChieuAdapter;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.entity.ent_NgayChieu;
+import com.ktck124.lop124LTDD04.nhom17.R;
+import com.ktck124.lop124LTDD04.nhom17.generalMethod.ConnectionDatabase;
+import com.ktck124.lop124LTDD04.nhom17.generalMethod.HorizontalSpaceItemDecoration;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

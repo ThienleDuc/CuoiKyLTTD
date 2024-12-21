@@ -9,7 +9,14 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.ProcessData.PD_DanhGiaPhim;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.ProcessData.PD_RapChieu;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.adapter.DanhGiaPhimAdapter;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.adapter.RapChieuAdapter;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.entity.ent_DanhGiaPhim;
 
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.entity.ent_RapChieu;
+import com.ktck124.lop124LTDD04.nhom17.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

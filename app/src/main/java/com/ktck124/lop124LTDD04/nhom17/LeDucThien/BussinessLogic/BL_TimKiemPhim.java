@@ -9,6 +9,12 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.ProcessData.PD_DanhGiaPhim;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.ProcessData.PD_TimKiemPhim;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.adapter.DanhGiaPhimAdapter;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.adapter.TimKiemAdapter;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.entity.ent_DanhGiaPhim;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.entity.ent_TimKiemPhim;
 
 import java.util.List;
 import java.util.concurrent.ExecutorService;

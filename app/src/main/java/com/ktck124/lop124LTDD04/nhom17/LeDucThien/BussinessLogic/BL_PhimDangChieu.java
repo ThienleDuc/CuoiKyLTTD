@@ -7,6 +7,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.ProcessData.PD_DanhGiaPhim;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.ProcessData.PD_PhimDangChieu;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.adapter.DanhGiaPhimAdapter;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.entity.ent_DanhGiaPhim;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.entity.ent_PhimDangChieu;
+
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

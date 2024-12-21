@@ -8,6 +8,14 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.ProcessData.PD_DanhGiaPhim;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.ProcessData.PD_RapChieuCon;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.adapter.DanhGiaPhimAdapter;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.adapter.DiaChiRapChieuAdapter;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.adapter.RapChieuConAdapter;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.entity.ent_DanhGiaPhim;
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.entity.ent_RapChieuCon;
+import com.ktck124.lop124LTDD04.nhom17.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

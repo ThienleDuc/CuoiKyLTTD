@@ -15,8 +15,11 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.ktck124.lop124LTDD04.nhom17.LeDucThien.entity.ent_TimKiemPhim;
+import com.ktck124.lop124LTDD04.nhom17.R;
+import com.ktck124.lop124LTDD04.nhom17.TranGiaThai.Activity.XemChiTietPhim;
 
-
+import com.ktck124.lop124LTDD04.nhom17.generalMethod.NumberFormatter;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
