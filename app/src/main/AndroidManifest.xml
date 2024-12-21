@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CineBooker"
+        tools:targetApi="31">
+        <!-- PhanCongQuoc -->
+        <activity android:name=".PhanCongQuoc.activity.login" android:exported="false"/>
+        <activity android:name=".PhanCongQuoc.activity.xuat_ve" android:exported="false"/>
+        <activity android:name=".PhanCongQuoc.activity.voucher" android:exported="false"/>
+        <activity android:name=".PhanCongQuoc.activity.xem_thong_tin_ve" android:exported="false"/>
+        <activity android:name=".PhanCongQuoc.activity.yeu_cau_hoan_tien" android:exported="false"/>
+        <activity android:name=".PhanCongQuoc.activity.phuong_thuc_thanh_toan" android:exported="false"/>
+        <activity android:name=".PhanCongQuoc.activity.cap_bac" android:exported="false"/>
+        <activity android:name=".PhanCongQuoc.activity.chiTietHuy" android:exported="false"/>
+        <activity android:name=".PhanCongQuoc.activity.register" android:exported="false"/>
+        <activity android:name=".PhanCongQuoc.activity.StartActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!-- LeDucThien -->
+        <activity android:name=".LeDucThien.activity.taiKhoan_BaoMat" android:exported="false"/>
+        <activity android:name=".LeDucThien.activity.home" android:exported="false"/>
+        <activity android:name=".LeDucThien.activity.danhSachRap" android:exported="false"/>
+        <activity android:name=".LeDucThien.activity.DanhSachDiaDiemRap" android:exported="false"/>
+        <!-- TranGiaThai -->
+        <activity android:name=".TranGiaThai.Activity.SecondActivity" android:exported="false"/>
+        <activity android:name=".TranGiaThai.Activity.ThanhToan" android:exported="false"/>
+        <activity android:name=".TranGiaThai.Activity.ThucAn" android:exported="false"/>
+        <activity android:name=".TranGiaThai.Activity.ChonGhe" android:exported="false"/>
+        <activity android:name=".TranGiaThai.Activity.XemChiTietPhim" android:exported="false"/>
+    </application>
+
+</manifest>
